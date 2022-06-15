@@ -1,0 +1,48 @@
+{
+	"info": {
+		"_postman_id": "257bd1fe-4080-410a-8852-9fedc1d3d37d",
+		"name": "API.MARVEL",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://gateway.marvel.com/v1/public/comics?ts=1565045589&apikey=8491fca32975462fe50031e40f8343dd&hash=06f7f9b33cbd5b4ca7e8f02a51f9173d",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://gateway.marvel.com/v1/public/comics?ts=1565045589&apikey=8491fca32975462fe50031e40f8343dd&hash=06f7f9b33cbd5b4ca7e8f02a51f9173d",
+					"protocol": "http",
+					"host": [
+						"gateway",
+						"marvel",
+						"com"
+					],
+					"path": [
+						"v1",
+						"public",
+						"comics"
+					],
+					"query": [
+						{
+							"key": "ts",
+							"value": "1565045589"
+						},
+						{
+							"key": "apikey",
+							"value": "8491fca32975462fe50031e40f8343dd"
+						},
+						{
+							"key": "hash",
+							"value": "06f7f9b33cbd5b4ca7e8f02a51f9173d"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
